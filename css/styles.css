@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
+
 [class*="col"] {
     float: left;
-    /* padding: 15px; */
+    padding: 15px;
 }
 
 .row::after {
@@ -15,14 +16,14 @@
     display: block;
 }
 
-/*div {*/
-/*    border: double black;*/
-/*}*/
-
 
 body {
     background-color: brown;
-    font-family:"Doppio One";
+    font-family:"Doppio One", sans-serif;
+}
+
+input, button {
+    font-family: inherit;
 }
 h1 {
     color: burlywood;
@@ -41,9 +42,19 @@ h3 {
     color: sandybrown;
 }
 
-.rate {
-    color: sandybrown;
+h4, summary {
+    color: burlywood;
 }
+
+summary {
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+a {
+    color: #ffd9a8;
+}
+
 
 p {
     color: sandybrown;
@@ -76,10 +87,7 @@ img {
     max-width: 500px;
 }
 
-.float-right {
-    float: right;
-    margin: 0 0 1em 1.5rem;
-}
+
 
 figcaption {
     text-align: center;
@@ -96,13 +104,13 @@ legend {
 }
 
 .easy {
-    color: lawngreen;
+    color: #7cfc00;
 }
 .med {
-    color: darkorange;
+    color: #ffa500;
 }
 .hard {
-    color: darkred;
+    color: #ff6347;
 }
 
 footer {
@@ -111,11 +119,6 @@ footer {
     margin: 0 auto;
 }
 
-.doppio-one-regular {
-    font-family: "Doppio One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
 
 
 .wrapper {
