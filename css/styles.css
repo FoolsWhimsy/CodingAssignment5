@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col"] {
+    float: left;
+    /* padding: 15px; */
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*div {*/
+/*    border: double black;*/
+/*}*/
+
+
+body {
+    background-color: brown;
+    font-family:"Doppio One";
+}
+h1 {
+    color: burlywood;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: sandybrown;
+}
+
+h3 {
+    font-size: 1.9rem;
+    color: sandybrown;
+}
+
+.rate {
+    color: sandybrown;
+}
+
+p {
+    color: sandybrown;
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 1.4em;
+    max-width: 50em;
+
+}
+
+ul {
+    line-height: 1.8em;
+    padding-left: 2rem;
+    color: sandybrown;
+    font-size: 1.1rem;
+}
+
+ol {
+    line-height: 1.8em;
+    padding-left: 2rem;
+    color: sandybrown;
+    font-size: 1.1rem;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 20px;
+    display: block;
+    margin: 15px auto;
+    max-width: 500px;
+}
+
+.float-right {
+    float: right;
+    margin: 0 0 1em 1.5rem;
+}
+
+figcaption {
+    text-align: center;
+    color: sandybrown;
+}
+
+.difficulty-box {
+    width: 300px;
+    background-color: sienna;
+}
+
+legend {
+    color: burlywood;
+}
+
+.easy {
+    color: lawngreen;
+}
+.med {
+    color: darkorange;
+}
+.hard {
+    color: darkred;
+}
+
+footer {
+    border-radius: 5px;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.doppio-one-regular {
+    font-family: "Doppio One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.wrapper {
+
+    display: flex;
+
+}
+
+.wrapper div {
+
+    flex: 1;
+
+}
